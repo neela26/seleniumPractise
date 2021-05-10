@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TC3]]>
+    </line>
+    <line>
+      <![CDATA[TC1]]>
+    </line>
+    <line>
+      <![CDATA[TC2]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104" started-at="2021-05-10T07:12:12Z" finished-at="2021-05-10T07:12:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="104" started-at="2021-05-10T07:12:12Z" finished-at="2021-05-10T07:12:12Z">
+      <class name="testngpractise.ParallelExecution">
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:testngpractise.ParallelExecution@5e5792a0]" name="testCase3" duration-ms="46" started-at="2021-05-10T07:12:12Z" finished-at="2021-05-10T07:12:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:testngpractise.ParallelExecution@5e5792a0]" name="testCase1" duration-ms="42" started-at="2021-05-10T07:12:12Z" finished-at="2021-05-10T07:12:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:testngpractise.ParallelExecution@5e5792a0]" name="testCase2" duration-ms="42" started-at="2021-05-10T07:12:12Z" finished-at="2021-05-10T07:12:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- testngpractise.ParallelExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

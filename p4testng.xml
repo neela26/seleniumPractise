@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--  for compatibility testing or to execute single test case on multiple browser -->
+<suite name="Suite"  thread-count="10" parallel="tests">
+  <test  name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+  <classes>
+  <class name="testNGWork.ParmetrizationExecution"/>
+  </classes>
+  
+  </test> <!-- Test -->
+  
+  <test  name="Test2">
+  <parameter name="browser" value="MSEdge"></parameter>
+  <classes>
+  <class name="testNGWork.ParmetrizationExecution"/>
+  </classes>
+  
+  </test> 
+</suite> <!-- Suite -->
